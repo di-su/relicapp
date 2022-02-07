@@ -3,7 +3,30 @@
     "api/*.php": {
       "runtime": "vercel-php@0.4.0"
     }
-
+    ,
+    "api/invest/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    }
+    ,
+    "api/invest/rolex/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    }
+    ,
+    "api/invest/nike/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    }
+    ,
+    "api/invest/marvel/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    }
+    ,
+    "api/invest/pokemon/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    }
+    ,
+    "api/invest/malt/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    }
   },
   "routes": [
     { "src": "/", "dest": "/api/index.php" },
