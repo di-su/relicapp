@@ -4,5 +4,9 @@
       "runtime": "vercel-php@0.4.0"
     }
   },
-  "routes": [{ "src": "/", "dest": "/api/index.php" }, { "src": "/invest", "dest": "/invest/index.php" }]
+  "routes": [
+    { "src": "/", "dest": "/api/index.php" },
+    { "src": "/invest", "dest": "/invest/index.php" }
+  ],
+  "cleanUrls": true
 }
