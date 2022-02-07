@@ -6,7 +6,9 @@
     "api/invest/*.php": {
       "runtime": "vercel-php@0.4.0"
     }
-    
   },
-  "cleanUrls": true
+  "routes": [
+    { "src": "/", "dest": "/api/index.php" },
+    { "src": "/invest", "dest": "/invest/index.php" }
+  ]
 }
