@@ -10,6 +10,5 @@
   "routes": [
     { "src": "/", "dest": "/api/index.php" },
     { "src": "/invest", "dest": "/invest/index.php" }
-  ],
-  "cleanUrls": true
+  ]
 }
