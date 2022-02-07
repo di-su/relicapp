@@ -2,6 +2,9 @@
   "functions": {
     "api/*.php": {
       "runtime": "vercel-php@0.4.0"
+    },
+    "invest/*.php": {
+      "runtime": "vercel-php@0.4.0"
     }
   },
   "routes": [{ "src": "/", "dest": "/api/index.php" }, { "src": "/nav", "dest": "/nav/index.php" }]
