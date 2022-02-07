@@ -29,6 +29,10 @@
   },
   "routes": [
     { "src": "/", "dest": "/api/index.php" },
-    { "src": "/invest", "dest": "api/invest/index.php" }
+    { "src": "/invest/rolex", "dest": "api/invest/rolex/index.php" },
+    { "src": "/invest/nike", "dest": "api/invest/nike/index.php" },
+    { "src": "/invest/marvel", "dest": "api/invest/marvel/index.php" },
+    { "src": "/invest/pokemon", "dest": "api/invest/pokemon/index.php" },
+    { "src": "/invest/malt", "dest": "api/invest/malt/index.php" }
   ]
 }
