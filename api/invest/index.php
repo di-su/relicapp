@@ -1,5 +1,5 @@
 
-<?php include "../../nav/index.php" ?>
+<?php include "../nav/index.php" ?>
 <body>
 <img id="invest-stripe-one" class="stripe" src="../pictures/stripe-left.png">
   <div style="background:#F4E8D2">
